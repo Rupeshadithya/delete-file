@@ -1,0 +1,10 @@
+curl -X 'DELETE' \
+  'https://localhost:44309/api/authorization/Application' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "token": "string",
+  "loggedInUserName": "string",
+  "loggedInUserId": "23cf7e25-59f1-49f1-ad1a-0e2ba9f3b804",
+  "applicationId": "b23298dc-1686-4e84-8a26-5cbc41f52a75"
+}'
